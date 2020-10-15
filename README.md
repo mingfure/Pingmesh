@@ -4,17 +4,17 @@
 
 > 在所有节点（服务器）上启动TCP或HTTP ping,以提供最大网络延迟测量覆盖率，从而实现一个用于大型数据中心网络延迟测量和分析的系统。
 
-![img](https://cmhdb-1251602287.cos.ap-guangzhou.myqcloud.com/1602744412602.png)
+![img](https://cmhdb-1251602287.cos.ap-guangzhou.myqcloud.com/1602746867557.png)
 
 ## 二、 Pingmesh简单框架
 
 该Pingmesh的简单框架主要分为可视化、Pingmesh Controller、Pingmesh Agent三部分，可视化提供完整的实时网络时延展示，Pingmesh Controller负责管理Pinglist，Pingmesh Agent在每台服务器上都需要安装，负责端到端网络测试发起。
 
-1. Origin：https://github.com/aprilmadaha/pingmesh
+1. 原始项目来源：https://github.com/aprilmadaha/pingmesh
 
 2. 简单框架示意图
 
-![img](https://cmhdb-1251602287.cos.ap-guangzhou.myqcloud.com/1602744501001.png)
+![img](https://cmhdb-1251602287.cos.ap-guangzhou.myqcloud.com/1602746900271.png)
 
 3. 文件结构
    1. 语言：Go
@@ -22,7 +22,7 @@
    3. 探测器：fping
    4. UI：Python flask
 
-![img](https://cmhdb-1251602287.cos.ap-guangzhou.myqcloud.com/1602744537227.png)
+![img](https://cmhdb-1251602287.cos.ap-guangzhou.myqcloud.com/1602746922624.png)
 
 根据上图可以看到：
 
